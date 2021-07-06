@@ -8,6 +8,10 @@ int main(){
   int die[2];
   char name[50];
 
+  printf("What is your name?\n");
+  scanf("%s",name);
+  printf("Hello,%s\n!",name);
+  
   srand((unsigned int)time(NULL));
 
   printf("rolling the dice...\n");
